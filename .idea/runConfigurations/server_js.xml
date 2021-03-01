@@ -4,7 +4,7 @@
       <env name="DEBUG" value="health-check:*" />
     </envs>
     <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
-      <browser url="http://localhost:8080/" />
+      <browser url="http://localhost:80/" />
     </EXTENSION>
     <method v="2" />
   </configuration>

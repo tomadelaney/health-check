@@ -26,4 +26,4 @@ app.get('/bad-health',(req,res)=> {
   res.status(500).send('Health check did not pass');
 });
 app.listen(PORT, HOST);
-console.log(Running on http://${HOST}:${PORT});
+console.log("Health Check Running");
