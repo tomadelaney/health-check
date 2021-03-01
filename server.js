@@ -6,7 +6,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-    res.status(200).send('/ Health Check Passed');
+    res.status(200).send('/ Health Check Passed - ta da !!!');
 });
 app.get('/healthz',(req,res)=> {
     res.status(200).send ("/health-check Health check passed");
